@@ -33,6 +33,16 @@ my %options =
   LICENSE  => 'perl',
   EXE_FILES => ['cpp2xs'],
   clean => { FILES => 'cpp2xs' },
+  META_MERGE => {
+   'meta-spec' => { version => 2 },
+    resources => {
+      repository => {
+        type => 'git',
+        url => 'https://github.com/sisyphus/inlinex-cpp2xs.git',
+        web => 'https://github.com/sisyphus/inlinex-cpp2xs',
+      },
+    },
+  },
   );
 
 WriteMakefile(%options);
