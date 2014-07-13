@@ -1,5 +1,7 @@
 - 0.25 ... Add 'T' config option.
 
+           Add metadata to InlineX::CPP2XS Makefile.PL.
+
 - 0.24 ... In t/t_portability.t and t/t_prehead.t change all occurrences of '__INLINE_CPP'
            to '__INLINE_CPP_' (to distinguish the pattern being sought from the defining
            of __INLINE_CPP that was created in Inline-CPP-0.40).
