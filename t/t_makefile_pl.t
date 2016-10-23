@@ -162,7 +162,7 @@ if($ok) {
      if ($_ =~ /VERSION/) {$res .= 'k'}
      if ($_ =~ /0.42/) {$res .= 'l'}
      if ($_ =~ /WriteMakefile\(%options\);/) {$res .= 'm'}
-     if ($_ =~ /sub MY::makefile { '' }/) {$res .= 'n'}
+     if ($_ =~ /sub MY::makefile \{ '' \}/) {$res .= 'n'}
      if ($_ =~ /CC/) {$res .= 'o'}
      if ($_ =~ /\Q$Config{cc}\E/) {$res .= 'p'}
      if ($_ =~ /CCFLAGS/) {$res .= 'q'}
