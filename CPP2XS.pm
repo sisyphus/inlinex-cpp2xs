@@ -8,7 +8,7 @@ our @ISA = qw(Exporter);
 
 our @EXPORT_OK = qw(cpp2xs);
 
-our $VERSION = '0.25';
+our $VERSION = '0.26';
 #$VERSION = eval $VERSION;
 
 my $config_options;
