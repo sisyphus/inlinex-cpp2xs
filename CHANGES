@@ -4,6 +4,8 @@
 
            Escape "{" and "}" in regex at line 165 of t/t_makefile_pl.t
 
+           Fix typo (s/C2XS/CPP2XS/) in CPP2XS.pm.
+
 - 0.24 ... In t/t_portability.t and t/t_prehead.t change all occurrences of '__INLINE_CPP'
            to '__INLINE_CPP_' (to distinguish the pattern being sought from the defining
            of __INLINE_CPP that was created in Inline-CPP-0.40).
