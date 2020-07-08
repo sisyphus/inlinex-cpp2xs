@@ -1,3 +1,5 @@
+use strict;
+use warnings;
 use ExtUtils::MakeMaker;
 
 my $file = 'cpp2xs';
